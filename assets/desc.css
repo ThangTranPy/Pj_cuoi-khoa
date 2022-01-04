@@ -1,0 +1,40 @@
+#info-food__wrap {
+    margin-top: 150px;
+    margin-left: 140px;
+    width: 60%;
+}
+
+.suggest-page {
+    display: flex;
+    align-items: center;
+}
+
+.suggest-page > a {
+    text-decoration: none;
+    color: #00a5cf;
+}
+
+.suggest-page > p {
+    margin-top: 16px;
+}
+
+.icon__suggest-page {
+    margin: 0 12px;
+    opacity: 0.6;
+}
+
+.name-food-desc {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.desc-food-desc {
+    margin: 32px 0;
+    display: -webkit-box;
+  -webkit-box-orient: vertical;
+   overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 4;
+  line-height: 1.6rem;
+}
